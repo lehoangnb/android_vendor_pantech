@@ -172,6 +172,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libvendor_aka.so:system/lib/libvendor_aka.so \
     vendor/pantech/msm8960-common/proprietary/lib/libyas530.so:system/lib/libyas530.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/egl/libGLESv2S3D_adreno.so:system/vendor/lib/egl/libGLESv2S3D_adreno.so \
@@ -180,15 +181,22 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libc2d2_a3xx.so:system/vendor/lib/libc2d2_a3xx.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libc2d2_z180.so:system/vendor/lib/libc2d2_z180.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
