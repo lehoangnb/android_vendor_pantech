@@ -25,10 +25,10 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/pantech/msm8960-common/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/pantech/msm8960-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/pantech/msm8960-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 #    vendor/pantech/msm8960-common/proprietary/lib/libalsa-msm.so:system/lib/libalsa-msm.so \
 #    vendor/pantech/msm8960-common/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
 #    vendor/pantech/msm8960-common/proprietary/lib/libasound.so:system/lib/libasound.so \
-#    vendor/pantech/msm8960-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
 #    vendor/pantech/msm8960-common/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
 #    vendor/pantech/msm8960-common/proprietary/lib/libnamparser.so:system/lib/libnamparser.so \
 #    vendor/pantech/msm8960-common/proprietary/lib/libresample.so:system/lib/libresample.so \
