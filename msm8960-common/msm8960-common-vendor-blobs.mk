@@ -167,6 +167,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libskymotioncore.so:system/lib/libskymotioncore.so \
     vendor/pantech/msm8960-common/proprietary/lib/libskyreset.so:system/lib/libskyreset.so \
     vendor/pantech/msm8960-common/proprietary/lib/libskytestclient.so:system/lib/libskytestclient.so \
+    vendor/pantech/msm8960-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/pantech/msm8960-common/proprietary/lib/liboem_ssa.so:system/lib/liboem_ssa.so \
     vendor/pantech/msm8960-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/pantech/msm8960-common/proprietary/lib/libvendor_aka.so:system/lib/libvendor_aka.so \
