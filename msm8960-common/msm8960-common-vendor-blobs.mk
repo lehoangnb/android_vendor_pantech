@@ -148,7 +148,7 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/pantech/msm8960-common/proprietary/lib/libualutil.so:system/lib/libualutil.so \
     vendor/pantech/msm8960-common/proprietary/lib/hw/gps.msm8960.so:system/lib/hw/gps.msm8960.so \
-    vendor/pantech/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
+    vendor/pantech/msm8960-common/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.vendor.msm8960.so \
     vendor/pantech/msm8960-common/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/pantech/msm8960-common/proprietary/lib/libpantech_qcci.so:system/lib/libpantech_qcci.so \
     vendor/pantech/msm8960-common/proprietary/lib/libpantech_wifi_mac_backup.so:system/lib/libpantech_wifi_mac_backup.so \
