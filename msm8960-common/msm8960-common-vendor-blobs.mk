@@ -20,6 +20,12 @@ PRODUCT_COPY_FILES += \
 	vendor/pantech/msm8960-common/proprietary/lib/libaudioalsa.so:obj/vendor/lib/libaudioalsa.so \
 	vendor/pantech/msm8960-common/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
+#Detect different device to fix camera
+ifeq ($(filter ef50l ef48s ef49k,$(TARGET_DEVICE)),)
+PRODUCT_COPY_FILES += \
+    vendor/pantech/msm8960-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
+endif
+
 #Audio UCM
 PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
@@ -69,7 +75,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/pantech/msm8960-common/proprietary/bin/fetch-swv:system/bin/fetch-swv \
     vendor/pantech/msm8960-common/proprietary/bin/cnd:system/bin/cnd \
-    vendor/pantech/msm8960-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/pantech/msm8960-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
     vendor/pantech/msm8960-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/pantech/msm8960-common/proprietary/bin/efsks:system/bin/efsks \
