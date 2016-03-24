@@ -21,4 +21,4 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/ef51/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/pantech/ef51/proprietary/lib/hw/sensors_native_hal.so:system/lib/hw/sensors_native_hal.so \
     vendor/pantech/ef51/proprietary/lib/hw/sensors_qcom.so:system/lib/hw/sensors_qcom.so \
-    vendor/pantech/ef51/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
+    #vendor/pantech/ef51/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so
