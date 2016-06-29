@@ -26,6 +26,11 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
 endif
 
+#GPU firmware
+PRODUCT_COPY_FILES += \
+    vendor/pantech/msm8960-common/proprietary/vendor/firmware:system/vendor/firmware/a300_pfp.fw \
+    vendor/pantech/msm8960-common/proprietary/vendor/firmware:system/vendor/firmware/a300_pm4.fw
+
 #Audio UCM
 PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
