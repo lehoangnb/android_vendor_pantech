@@ -236,4 +236,6 @@ PRODUCT_COPY_FILES += \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/pantech/msm8960-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+    vendor/pantech/msm8960-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     #vendor/pantech/msm8960-common/proprietary/lib/libdivxdrmdecrypt.so:system/lib/libdivxdrmdecrypt.so \
