@@ -28,8 +28,8 @@ endif
 
 #GPU firmware
 PRODUCT_COPY_FILES += \
-    vendor/pantech/msm8960-common/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
-    vendor/pantech/msm8960-common/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw
+    vendor/pantech/msm8960-common/proprietary/vendor/firmware:system/vendor/firmware/a300_pfp.fw \
+    vendor/pantech/msm8960-common/proprietary/vendor/firmware:system/vendor/firmware/a300_pm4.fw
 
 #Audio UCM
 PRODUCT_COPY_FILES += \
